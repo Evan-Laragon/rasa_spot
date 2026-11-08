@@ -2,13 +2,13 @@
 $restaurants = [
     [
         'name' => 'CW Coffee Gajah Mada',
-        'image' => 'cw coffee.png',
+        'image' => 'cw-coffee.png',
         'rating' => '4.7',
         'reviews' => '980'
     ],
     [
         'name' => 'Mie Gacoan Karya Baru',
-        'image' => 'mie gacoan.png',
+        'image' => 'mie-gacoan.png',
         'rating' => '4.7',
         'reviews' => '980'
     ],
@@ -398,7 +398,7 @@ $payments = [
             
             <aside class="sidebar">
                 <div class="user-profile">
-                    <img src="assest/image/users profile.png" alt="User Profile" onerror="this.src='assest/image/user-profile-circle.png'">
+                    <img src="assest/image/users-profile.png" alt="User Profile" onerror="this.src='assest/image/user-profile-circle.png'">
                     <span>User</span>
                 </div>
 
@@ -430,7 +430,7 @@ $payments = [
                 <div class="top-header">
                     <div class="search-box">
                         <i class="fa-solid fa-magnifying-glass search-icon"></i>
-                        <input type="text" placeholder="Cari makanan, restoran..." onclick="window.location.href='pages/search/search menu.php'" readonly>
+                        <input type="text" placeholder="Cari makanan, restoran..." onclick="window.location.href='pages/search/search-menu.php'" readonly>
                     </div>
                     <div class="header-icons">
                         <button class="icon-btn">

@@ -3,7 +3,7 @@ $user_profile = [
     'nama' => 'Bang Satrio',
     'email' => 'satrio@gmail.com',
     'telepon' => '0812-1288-1272',
-    'foto' => 'users profile.png'
+    'foto' => 'users-profile.png'
 ];
 ?>
 <!DOCTYPE html>
