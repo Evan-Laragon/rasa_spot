@@ -1,0 +1,97 @@
+.profile-content {
+    flex: 1;
+    padding: 40px 60px;
+    background: #fffbeb;
+}
+
+.profile-title {
+    margin: 0 0 30px;
+    color: #1a1a1a;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.profile-header-info {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.profile-header-info img {
+    width: 90px;
+    height: 90px;
+    border: 1px solid #1a1a1a;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.btn-ganti-foto {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border: 0;
+    background: transparent;
+    color: #1a1a1a;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.profile-form {
+    max-width: 600px;
+}
+
+.form-group {
+    margin-bottom: 24px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: #1a1a1a;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 14px 16px;
+    border: 1px solid #f97316;
+    border-radius: 4px;
+    outline: none;
+    background: #fff;
+    color: #666;
+    font-size: 16px;
+}
+
+.form-group input:focus {
+    box-shadow: 0 0 0 3px rgba(249, 115, 22, 0.2);
+}
+
+.form-action {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.btn-simpan {
+    min-width: 220px;
+    padding: 14px 40px;
+    border: 0;
+    border-radius: 4px;
+    background: #f97316;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn-simpan:hover {
+    background: #e06312;
+}
+
+@media (max-width: 760px) {
+    .profile-content {
+        padding: 28px 20px;
+    }
+}
